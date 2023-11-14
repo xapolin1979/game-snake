@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif ;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e3f2fd;
+}
+
+.wrapper{
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #293447;
+}
+.game-details{
+    color:#b8c6dc;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content:space-between ;
+}
+.play-board{
+    width: 100%;
+    height: 100vh;
+    background-color: #212837;
+    display: grid;
+    grid-template:repeat(15,1fr)/repeat(15,1fr);
+
+}
+
+.play-board .food{
+
+background-image: url(./img/manzana4.png);
+background-size: 95%;
+background-position: center;
+
+}
+.play-board .head{
+  background-color: green;
+  border: 1px solid white;
+ 
+
+    }
